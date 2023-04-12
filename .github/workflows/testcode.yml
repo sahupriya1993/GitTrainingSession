@@ -10,6 +10,5 @@ jobs:
     - name: Run PMD
       uses: kemsakurai/action-pmd@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         reporter: 'github-pr-review'
         tool_name: 'pmd_reviewdog'
